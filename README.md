@@ -20,3 +20,4 @@ Etudiant 4 : [MARTIN--GRENTZINGER Louis](mailto:louis.martin--grentzinger@edu.un
 
 
 L'objectif de notre site est avant tout de présenter les produits/services que nous mettons en vente. Il s'adresse principalement au consommateur de tout âge, mais il s'adresse aussi aux entreprises.
+//Continuer a decrire. a faire ce soir 24/09/25.
