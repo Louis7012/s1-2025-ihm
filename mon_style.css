@@ -1,37 +1,64 @@
 h1{
-    color: rgb(255, 0, 0);
-    font-family: Radjhani;
-    background-color: rgb(255, 0, 255);
+    color: rgb(0, 0, 0);
+    font-family: Rajdhani;
+    /* background-color: rgb(255, 133, 56); */
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    font-size: 70px;
 }
+
+
 *{
     font-family: Overpass;
 }
 
 html, body{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
-
+    
+    font-family: Overpass;
     justify-content: center;
-    height: 250vh;
-    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    padding: 5px 20px 5px;
+    border-radius: 40px;
+    
 
 }
 
 header{
-    background-color: white;
+    /* background-color: rgb(255, 209, 124); */
+    flex-wrap: wrap;
+    color: black;
+    
 }
 
 body{
-    background-color: #f0f0f0;
+    background-color: #fa7e25;
+    padding: 5px 30px 5px;
+
+    
 }
     
 .table {
-    padding: 7px;
+    padding: 30px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 100px;
+    width: 50px;
     align-items: center;
-    gap: 130px;
-    border-bottom: 1.6px solid rgb(132, 132, 132);
+
+
+    
+}
+
+.logo{
+   width: 50px;
+    
+}
+
+.image{
+
+    margin: 100px;
+
 }
