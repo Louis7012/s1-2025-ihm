@@ -3,10 +3,50 @@ h1{
     font-size: 70px;
 }
 
-h2{
-    font-family: Pridi;
+div.bloc1{
+    h2{
+        font-family: Pridi;
+    }
+
+    p{
+        font-family: Overpass;
+    }
+
+    background-color: #FF9249;
 }
 
-p{
-    font-family: Overpass;
+div.bloc2{
+    h2{
+        font-family: Pridi;
+    }
+
+    p{
+        font-family: Overpass;
+    }
+
+    background-color: #FF9249;
+}
+
+div.bloc3{
+    h2{
+        font-family: Pridi;
+    }
+
+    p{
+        font-family: Overpass;
+    }
+
+    background-color: #FF9249;
+}
+
+div.bloc4{
+    h2{
+        font-family: Pridi;
+    }
+
+    p{
+        font-family: Overpass;
+    }
+
+    background-color: #FF9249;
 }
