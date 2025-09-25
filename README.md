@@ -19,5 +19,4 @@ Etudiant 4 : [MARTIN--GRENTZINGER Louis](mailto:louis.martin--grentzinger@edu.un
 # Présentation du projet
 
 
-L'objectif de notre site est avant tout de présenter les produits/services que nous mettons en vente. Il s'adresse principalement au consommateur de tout âge, mais il s'adresse aussi aux entreprises.
-//Continuer a decrire. a faire ce soir 24/09/25.
+L'objectif de notre site est avant tout de présenter les produits/services que nous mettons en vente. Parmi nos services, nous avons l'installation et l'optimisation de vos réseaux WIFI, et proposons des solutions SMART HOME avec des objets connectés. Il s'adresse principalement au consommateur de tout âge avec la vente de smartphones et de forfaits, mais aussi aux entreprises avec la mise en place de packs et d'accessoires adaptés aux besoins du monde professionnel.
