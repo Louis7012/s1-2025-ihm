@@ -6,4 +6,25 @@ h1{
 *{
     font-family: Overpass;
 }
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+
+    justify-content: center;
+    align-items: flex-start;
+    height: 250vh;
+    width: 100vw;
+
+}
+
+header{
+    background-color: white;
+}
+
+body{
+    background-color: #f0f0f0;
+}
     
