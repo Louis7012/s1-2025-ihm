@@ -5,7 +5,7 @@
 
 [s1-2025-ihm](https://github.com/Louis7012/s1-2025-ihm)
 
-[page web](https://louis7012.github.io/s1-2025-ihm/)
+[Page web](https://louis7012.github.io/s1-2025-ihm/)
 
 ## Membres du groupe :
 
