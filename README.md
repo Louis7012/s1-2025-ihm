@@ -25,7 +25,7 @@ L'objectif de notre site est avant tout de présenter les produits/services que 
 
 ## Choix de conception
 
-Pour la conception du site, nous nous sommes grandement inspirés du site officiel de Orange (trouvable [ici]([https://www.entreprise.com/fr-fr/](https://www.orange.fr/portail))), mais aussi des site secondaires comme **************,
+Pour la conception du site, nous nous sommes grandement inspirés du site officiel de Orange (trouvable [ici]([https://www.entreprise.com/fr-fr/](https://www.orange.fr/portail)), mais aussi des site secondaires comme **************,
 
 ## Développement Site Web et Validation des pages
 
