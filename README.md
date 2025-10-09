@@ -20,8 +20,7 @@ Etudiant 4 : [MARTIN--GRENTZINGER Louis](mailto:louis.martin--grentzinger@edu.un
 
 # Présentation du projet
 
-
-L'objectif de notre site est avant tout de présenter les produits/services que nous mettons en vente. Parmi nos services, nous avons l'installation et l'optimisation de vos réseaux WIFI, et proposons des solutions SMART HOME avec des objets connectés. Il s'adresse principalement au consommateur de tout âge avec la vente de smartphones et de forfaits. Vous trouverez aussi sur ce site l'histoire de création de cette entreprise avec les données historiques, du départ de la fondation de l'entreprise à aujourd'hui.
+L'objectif de notre site est avant tout de présenter les produits/services que nous mettons en vente. Parmi nos services, nous avons l'installation et l'optimisation de vos réseaux WIFI. Il s'adresse principalement au consommateur de tout âge avec la vente de smartphones et de forfaits. Vous trouverez aussi sur ce site l'histoire de création de cette entreprise avec les données historiques, du départ de la fondation de l'entreprise à aujourd'hui.
 
 ## Choix de conception
 
@@ -40,19 +39,18 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 ### Planification - Diagramme de GANTT
 
-- Nom Prénom
+- MARTIN--GRENTZINGER Louis
+- MAHAMANE Mansourah
 
 ### Recherches d'informations
 
 - PEIGNEY Robin
 - Nom Prénom
 
-
 ### Rapport économique
 
-- Nom Prénom
-- Nom Prénom
-- Nom Prénom
+- LEVEQUE Guilian
+- MAHAMANE Mansourah
 
 ### Développement site
 
@@ -60,8 +58,12 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
   - Page d’accueil
   - "Template" de page (Navbar/Footer)
   - Page présentation
-- Nom Prénom
-  - Page histoire
-- Nom Prénom
-  - Page organisation
+- PEIGNEY Robin
+  - Page Services
+  - "Template" de page (Navbar/Footer)
+- MARTIN--GRENTZINGER Louis
+  - Page Aide & Contact
+- LEVEQUE Guilian
+  - Page Qui sommmes nous ?
+ 
 
