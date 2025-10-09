@@ -20,7 +20,7 @@ Etudiant 4 : [MARTIN--GRENTZINGER Louis](mailto:louis.martin--grentzinger@edu.un
 
 # Présentation du projet
 
-L'objectif de notre site est avant tout de présenter les produits/services que nous mettons en vente. Parmi nos services, nous avons l'installation et l'optimisation de vos réseaux WIFI. Il s'adresse principalement au consommateur de tout âge avec la vente de smartphones et de forfaits. Vous trouverez aussi sur ce site l'histoire de création de cette entreprise avec les données historiques, du départ de la fondation de l'entreprise à aujourd'hui.
+L'objectif de notre site est avant tout de présenter les produits/services que nous mettons en vente. Parmi nos services, nous avons l'installation et l'optimisation de vos réseaux WIFI mais aussi la vente de Smartphones et d'abonnements TV . Il s'adresse principalement au consommateur de tout âge avec la vente de smartphones et de forfaits. Vous trouverez aussi sur ce site l'histoire de création de cette entreprise avec les données historiques, du départ de la fondation de l'entreprise à aujourd'hui.
 
 ## Choix de conception
 
