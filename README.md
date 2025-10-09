@@ -9,7 +9,7 @@
 
 ## Membres du groupe :
 
-(référent du groupe) : [MAHAMANE Mansourah](mailto:mansourah.mahamane@edu.univ-fcomte.fr) 
+Etudiant 1 : [MAHAMANE Mansourah](mailto:mansourah.mahamane@edu.univ-fcomte.fr) (référent du groupe)
  
 Etudiant 2 : [PEIGNEY Robin](mailto:robin.peigney@edu.univ-fcomte.fr)
  
