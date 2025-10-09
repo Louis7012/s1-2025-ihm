@@ -3,50 +3,62 @@ h1{
     font-size: 70px;
 }
 
-div.bloc1{
-    h2{
-        font-family: Pridi;
-    }
-
-    p{
-        font-family: Overpass;
-    }
-
-    background-color: #FF9249;
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: #000000;
 }
 
-div.bloc2{
-    h2{
-        font-family: Pridi;
-    }
-
-    p{
-        font-family: Overpass;
-    }
-
-    background-color: #FF9249;
+body>header>div{
+    padding: 8px 20px;
+    background: #F7DC83;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
-div.bloc3{
+body>div.gauche{
+
+    background-color: #FF9249;
+
     h2{
         font-family: Pridi;
+        display: flex;
+        justify-content: flex-start;
+        width: 45%;
+        margin-left: 5%;
     }
 
     p{
         font-family: Overpass;
+        display: flex;
+        justify-content: flex-start;
+        width: 45%;
+        margin-left: 5%;
     }
-
-    background-color: #FF9249;
 }
 
-div.bloc4{
+body>div.droite{
+
+    background-color: #F7DC83;
+
     h2{
         font-family: Pridi;
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 50%;
+        width: 45%;
+        margin-right: 5%;
     }
 
     p{
         font-family: Overpass;
+        display: flex;
+        justify-content: flex-end;
+        width: 45%;
+        margin-left: 50%;
+        margin-right: 5%;
     }
-
-    background-color: #FF9249;
 }
