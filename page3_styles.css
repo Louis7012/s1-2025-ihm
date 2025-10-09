@@ -78,9 +78,7 @@ h2 {
 }
 
 /* --- STYLE DES CARTES --- */
-.Appareil_1, .Appareil_2, .Appareil_3,
-.Forfait_1, .Forfait_2, .Forfait_3,
-.TV_1, .TV_2, .TV_3 {
+.Ensemble {
     background-color: #f8de7e;
     border-radius: 15px;
     width: 300px;
