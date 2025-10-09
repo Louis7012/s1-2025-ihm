@@ -45,7 +45,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 ### Recherches d'informations
 
 - PEIGNEY Robin
-- Nom Prénom
+- Chat GPT
 
 ### Rapport économique
 
