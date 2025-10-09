@@ -2,10 +2,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #0d2234; /* bleu nuit */
-    font-family: "Overpass", sans-serif;
+    background-color: #fff9e6;
+    padding: 5px 30px 5px;
     color: #000;
 }
+
 
 /* --- EN-TÊTE --- */
 header {
@@ -48,7 +49,7 @@ header a:hover {
 
 /* --- TITRES --- */
 h1, h2 {
-    color: #f8de7e;
+    color: #102436;
     text-align: center;
 }
 
@@ -60,41 +61,57 @@ h2 {
     margin-top: 40px;
 }
 
-/* --- ENSEMBLE D’ARTICLES --- */
+/* --- ENSEMBLE --- */
 .Ensemble {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 50px;
-    margin-bottom: 60px;
+    margin: 50px 0;
 }
 
-/* --- BLOCS D’APPAREILS / FORFAITS / TV --- */
+/* --- BLOCS (Appareil, Forfait, TV) --- */
 .Appareil, .Forfait, .TV {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     gap: 40px;
+    width: 90%;
+    max-width: 1100px;
+}
+
+/* --- ALTERNANCE GAUCHE / DROITE --- */
+.Appareil:nth-of-type(odd),
+.Forfait:nth-of-type(odd),
+.TV:nth-of-type(odd) {
+    margin-left: 80px;   /* aligné à gauche */
+    justify-content: flex-start;
+}
+
+.Appareil:nth-of-type(even),
+.Forfait:nth-of-type(even),
+.TV:nth-of-type(even) {
+    margin-left: auto;   /* aligné à droite */
+    margin-right: 80px;
+    justify-content: flex-end;
 }
 
 /* --- STYLE DES CARTES --- */
-.Ensemble {
+.Appareil_1, .Appareil_2, .Appareil_3,
+.Forfait_1, .Forfait_2, .Forfait_3,
+.TV_1, .TV_2, .TV_3 {
     background-color: #f8de7e;
     border-radius: 15px;
-    width: 300px;
+    width: 320px;
     min-height: 250px;
     text-align: center;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-/* --- IMAGES DES ARTICLES --- */
-.Appareil_1 img, .Appareil_2 img, .Appareil_3 img {
+/* --- IMAGES --- */
+.Appareil_1 img, .Appareil_2 img, .Appareil_3 img,
+.Forfait_1 img, .Forfait_2 img, .Forfait_3 img,
+.TV_1 img, .TV_2 img, .TV_3 img {
     width: 80%;
     height: auto;
-    background-color: #ff9248;
-    border-radius: 10px;
-    padding: 10px;
 }
 
 /* --- TEXTE --- */
@@ -118,20 +135,26 @@ frooter {
 }
 
 /* --- RESPONSIVE --- */
-@media (max-width: 800px) {
-    header {
-        flex-direction: column;
-        gap: 10px;
-    }
-
+@media (max-width: 900px) {
     .Appareil, .Forfait, .TV {
         flex-direction: column;
         align-items: center;
+        margin: 0 auto;
     }
 
     .Appareil_1, .Appareil_2, .Appareil_3,
     .Forfait_1, .Forfait_2, .Forfait_3,
     .TV_1, .TV_2, .TV_3 {
-        width: 80%;
+        width: 85%;
+    }
+
+    .Appareil:nth-of-type(odd),
+    .Forfait:nth-of-type(odd),
+    .TV:nth-of-type(odd),
+    .Appareil:nth-of-type(even),
+    .Forfait:nth-of-type(even),
+    .TV:nth-of-type(even) {
+        margin: 0 auto;
+        justify-content: center;
     }
 }
