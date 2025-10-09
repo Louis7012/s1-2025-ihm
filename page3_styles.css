@@ -1,64 +1,139 @@
-h1{
-    color: rgb(0, 0, 0);
-    font-family: Rajdhani;
-    /* background-color: rgb(255, 133, 56); */
-    border-radius: 20px;
-    padding: 20px;
+/* --- STYLE GÉNÉRAL --- */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d2234; /* bleu nuit */
+    font-family: "Overpass", sans-serif;
+    color: #000;
+}
+
+/* --- EN-TÊTE --- */
+header {
+    background-color: #f8de7e; /* jaune pâle */
     display: flex;
-    font-size: 70px;
-}
-
-
-*{
-    font-family: Overpass;
-}
-
-html, body{
-    
-    font-family: Overpass;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    flex-wrap: wrap;
-    padding: 5px 20px 5px;
-    border-radius: 40px;
-    
-
-}
-
-header{
-    /* background-color: rgb(255, 209, 124); */
-    flex-wrap: wrap;
-    color: black;
-    
-}
-
-body{
-    background-color: #fa7e25;
-    padding: 5px 30px 5px;
-
-    
-}
-    
-.table {
-    padding: 30px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 100px;
-    width: 50px;
     align-items: center;
-
-
-    
+    justify-content: space-between;
+    padding: 10px 30px;
 }
 
-.logo{
-   width: 50px;
-    
+header .table {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
-.image{
+header .logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #ff9248;
+    object-fit: cover;
+    padding: 5px;
+}
 
-    margin: 100px;
+/* --- LIENS DU MENU --- */
+header a {
+    text-decoration: none;
+    background-color: #ff9248;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
 
+header a:hover {
+    background-color: #ffb56c;
+}
+
+/* --- TITRES --- */
+h1, h2 {
+    color: #f8de7e;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+/* --- ENSEMBLE D’ARTICLES --- */
+.Ensemble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+
+/* --- BLOCS D’APPAREILS / FORFAITS / TV --- */
+.Appareil, .Forfait, .TV {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* --- STYLE DES CARTES --- */
+.Appareil_1, .Appareil_2, .Appareil_3,
+.Forfait_1, .Forfait_2, .Forfait_3,
+.TV_1, .TV_2, .TV_3 {
+    background-color: #f8de7e;
+    border-radius: 15px;
+    width: 300px;
+    min-height: 250px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* --- IMAGES DES ARTICLES --- */
+.Appareil_1 img, .Appareil_2 img, .Appareil_3 img {
+    width: 80%;
+    height: auto;
+    background-color: #ff9248;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* --- TEXTE --- */
+p, li {
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* --- FOOTER --- */
+frooter {
+    background-color: #f8de7e;
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 600;
+    color: #000;
+    margin-top: 50px;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Appareil, .Forfait, .TV {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Appareil_1, .Appareil_2, .Appareil_3,
+    .Forfait_1, .Forfait_2, .Forfait_3,
+    .TV_1, .TV_2, .TV_3 {
+        width: 80%;
+    }
 }
