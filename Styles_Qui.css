@@ -112,6 +112,7 @@ header {
     color: var(--orange);
     transition: 0.3s;
 }
+/* ===========================*/
 
 body>header>div{
     padding: 8px 20px;
