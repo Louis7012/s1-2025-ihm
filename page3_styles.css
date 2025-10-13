@@ -222,14 +222,14 @@ h2 {
 .Appareil:nth-of-type(odd),
 .Forfait:nth-of-type(odd),
 .TV:nth-of-type(odd) {
-    margin-left: 80px;   /* aligné à gauche */
+    margin-left: 80px;   
     justify-content: flex-start;
 }
 
 .Appareil:nth-of-type(even),
 .Forfait:nth-of-type(even),
 .TV:nth-of-type(even) {
-    margin-left: auto;   /* aligné à droite */
+    margin-left: auto;   
     margin-right: 80px;
     justify-content: flex-end;
 }
@@ -245,6 +245,12 @@ h2 {
     text-align: center;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.Appareil_1:hover, .Appareil_2:hover, .Appareil_3:hover,
+.Forfait_1:hover, .Forfait_2:hover, .Forfait_3:hover,
+.TV_1:hover, .TV_2:hover, .TV_3:hover{
+    background-color: #fce593;
 }
 
 /* --- IMAGES --- */
