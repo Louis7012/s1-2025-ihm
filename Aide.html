@@ -29,42 +29,81 @@
   </header>
 </head>
 
-
 <body>
+    <main>
         <h1>Aide & Contact</h1>
-    <div class="Coordonnées">
-        <h2>Coordonnées</h2>
-            <p>adresse:</p>
-    </div>
-    <div class="Formulaire">
-        <h2>formulaire</h2>
-            <div>
-                <p>Nom</p>
-            </div>
-            <div>
-                <p>Prénom</p>
-            </div>
-            <div>
-                <p>email</p>
-            </div>
-            <div>
-                <p>menu déroulant</p>
-            </div>
-            <div>
-                <p>sujet du message</p>
-            </div>
-            <div>
-                <p>menu déroulant</p>
-            </div>
-            <div>
-                <p>numéro de tel:</p>
-            </div>
-            <div>
-                <p>Nous vous répondons sous 24h ou conatctez nous, notre équipe est là pour vous aider</p>
-            </div>
-            <div class="maps">
-                <p>google maps</p>
-            </div>
+
+        <div id="formulaire">
+            <section>
+                <h2>Sexe</h2>
+                <select name="sexe" id="sexe-selection">
+                    <option value="">Choisissez votre sexe</option>
+                    <option value="homme">Homme</option>
+                    <option value="femme">Femme</option>
+                </select>
+
+                <div class="half-line">
+                    <div>
+                        <h2>Prénom</h2>
+                        <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prénom">
+                    </div>
+                    <div>
+                        <h2>Nom</h2>
+                        <input type="text" name="nom" id="nom" placeholder="Entrez votre nom">
+                    </div>
+                </div>
+
+                <div class="line">
+                    <div>
+                        <h2>Email</h2>
+                        <input type="email" name="email" id="email" placeholder="votre-email@domaine.ex">
+                    </div>
+                </br>
+                    <div>
+                        <h2>Numéro de téléphone</h2>
+                        <input type="tel" name="numero" id="numero" placeholder="01 23 45 67 89">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="line">
+                    <div>
+                        <h2>Adresse</h2>
+                        <input type="text" name="adresse" id="adresse" placeholder="1 rue de l'église">
+                    </div>
+                </div>
+
+                <div class="half-line">
+                    <div>
+                        <h2>Code postal</h2>
+                        <input type="text" name="code_postal" id="code_postal" placeholder="12345">
+                    </div>
+                    <div>
+                        <h2>Ville</h2>
+                        <input type="text" name="ville" id="ville" placeholder="Entrez le nom de votre ville">
+                    </div>
+                </div>
+
+                <button>Envoyer</button>
+
+                <p>Nous vous répondrons sous 24h. Vous pouvez aussi nous contacter directement, notre équipe est là pour vous aider.</p>
+            </section>
+
+            <section>
+                <div>
+                    <h2>Message</h2>
+                    <textarea name="mail-message" id="mail-message" placeholder="Votre message"></textarea>
+                </div>
+
+                <div class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5252.9324309739295!2d2.258914876938975!3d48.830245271328224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67a90f88ee63d%3A0xc2b427eac0dc700d!2s111%20Quai%20du%20Pr%C3%A9sident%20Roosevelt%2C%2092130%20Issy-les-Moulineaux!5e0!3m2!1sfr!2sfr!4v1759416784944!5m2!1sfr!2sfr"
+                        width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
 
 
