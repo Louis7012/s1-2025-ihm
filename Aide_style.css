@@ -118,15 +118,6 @@ body {
     background-color: var(--clair);
 }
 
-h1 {
-    color: #000;
-    font-family: 'Rajdhani', sans-serif;
-    font-size: 70px;
-    text-align: center;
-    margin: 30px auto;
-    width: fit-content;
-}
-
 #formulaire {
     display: flex;
     flex-direction: column;
