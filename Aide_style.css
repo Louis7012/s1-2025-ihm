@@ -118,7 +118,7 @@ body {
     background-color: var(--clair);
 }
 
-#formulaire {
+.formulaire {
     display: flex;
     flex-direction: column;
     gap: 30px;
