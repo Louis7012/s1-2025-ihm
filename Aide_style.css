@@ -283,32 +283,3 @@ footer {
     padding-top: 8px;
     border-top: 1px solid #ddd;
 }
-
-
-/* ===========================
-   RESPONSIVE
-=========================== */
-
-@media (max-width: 900px) {
-    .Appareil, .Forfait, .TV {
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-    }
-
-    .Appareil_1, .Appareil_2, .Appareil_3,
-    .Forfait_1, .Forfait_2, .Forfait_3,
-    .TV_1, .TV_2, .TV_3 {
-        width: 85%;
-    }
-
-    .Appareil:nth-of-type(odd),
-    .Forfait:nth-of-type(odd),
-    .TV:nth-of-type(odd),
-    .Appareil:nth-of-type(even),
-    .Forfait:nth-of-type(even),
-    .TV:nth-of-type(even) {
-        margin: 0 auto;
-        justify-content: center;
-    }
-}
