@@ -311,24 +311,27 @@ footer {
 /* ===========================
    RESPONSIVE
 =========================== */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        gap: 1rem;
-    }
 
-    .service-cards,
-    .actus-content,
-    .footer-content {
+@media (max-width: 900px) {
+    .Appareil, .Forfait, .TV {
         flex-direction: column;
         align-items: center;
+        margin: 0 auto;
     }
 
-    .service-card,
-    .actus-content article {
-        width: 100%;
-        max-width: 400px;
+    .Appareil_1, .Appareil_2, .Appareil_3,
+    .Forfait_1, .Forfait_2, .Forfait_3,
+    .TV_1, .TV_2, .TV_3 {
+        width: 85%;
+    }
+
+    .Appareil:nth-of-type(odd),
+    .Forfait:nth-of-type(odd),
+    .TV:nth-of-type(odd),
+    .Appareil:nth-of-type(even),
+    .Forfait:nth-of-type(even),
+    .TV:nth-of-type(even) {
+        margin: 0 auto;
+        justify-content: center;
     }
 }
-
-
