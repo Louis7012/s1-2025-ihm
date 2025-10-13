@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portail Orange</title>
-    <link rel="icon" type="image/x-icon"  href="favicon.ico">
+    <title>Orange</title>
+    <link rel="icon" type="image/x-icon"  href="favicon-32x32.png">
     <link href="mon_style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,27 +12,134 @@
     <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Pridi:wght@200;300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
-        <header>
-            <div class="table">
-            <img src="Image_icon2.png" alt="logo" class="logo"/>
-            <a href="index.html">Accueil</a>
-            <a href="page3.html">Services</a>
-            <a href="Aide.html">Aide & Contact</a>
-            <a href="Orange_Qui.html">Qui sommes nous ?</a>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img class="logo_un" src="logo.png" alt="logo"/>
+                <h1><a href="index.html">Orange</a></h1>
             </div>
-        </header>
-</head>
-<body>
-     <h1>Le Numerique eu toute de la simplicité</h1> <!--Clementine une connexion limpide et fine -->
-    <h2> Bienvenue dans un univers ou chaque connexion devient simple, fluide et <b>naturelle</b>. Avec nous le numerique se savoure : <b>Frais et toujours a votre portée</b>.</h2>
-    <h3> ...</h3>
+            <ul class="Liens">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="page3.html">Nos Offre</a></li>
+                <li><a href="Aide.html">Services client</a></li>
+                <li><a href="Orange_Qui.html">A propos</a></li>
+            </ul>
 
-    <div class="image">
-        <p>IMAGE...</p>
+        </nav>
+  </header>
+</head>
+
+<!-- ------------------------- PRINCIPAL -->
+
+<body>
+    <section class="Principal">
+        <div class="Principal_contenu">
+            <div class="texte-logo">
+                <div class="texte">
+                    <h2>Le Numerique eu toute de la simplicité</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Découvrez nos offres Internet, Mobile et TV adaptées à vos besoins.</p>
+                    <div class="Principal-boutons">
+                        <button href="#" class="Bouton_un">Découvrir nos offres</button>
+                        <button href="#" class="Bouton_un">En savoir plus</button>
+                    </div>
+                </div>
+                <img class="img_un" src="flat-autumn-background.png" alt="image_building"/>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+      <h2>Nos Services</h2>
+      <div class="service-presentations">
+        <div class="service-presentation">
+          <img src="images/mobile.jpg" alt="Offres Mobile">
+          <h3>Offres Mobile</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Profitez de nos forfaits 5G à prix avantageux.</p>
+          <a href="#" class="b_deux">En savoir plus</a>
+        </div>
+
+        <div class="service-presentation">
+          <img src="images/fibre.jpg" alt="Internet & TV">
+          <h3>Internet & TV</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bénéficiez d’une connexion fibre ultra rapide.</p>
+          <a href="#" class="b_deux">En savoir plus</a>
+        </div>
+
+        <div class="service-presentation">
+          <img src="images/assistance.jpg" alt="Assistance client">
+          <h3>Assistance client</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Notre équipe est à votre écoute 7j/7.</p>
+          <a href="#" class="b_deux">En savoir plus</a>
+        </div>
+      </div>
+    </section>
+<!-- ------------------------- INFOS -->
+    <section class="actus">
+      <h2>Actualités & Promotions</h2>
+      <div class="actus-content">
+        <article>
+          <h3>Nouvelle offre Fibre 2025</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <a href="#">Voir les détails</a>
+        </article>
+        <article>
+          <h3>Forfait 5G dès 9,99€/mois</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis.</p>
+          <a href="#">Découvrir</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+<!-- -------------------------- AIDE CHATGPT -->
+  <script>
+    window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+    });
+    </script>
+</body>
+
+<!-- ------------------------- FOOTER -->
+    
+<footer>
+    <div class="footer-content">
+      <div class="footer-links">
+        <h4>Liens utiles</h4>
+        <ul>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Conditions générales</a></li>
+          <li><a href="#">Politique de confidentialité</a></li>
+          <li><a href="#">Plan du site</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Service client : 3900</p>
+        <p>Email : contact@orange.fr</p>
+        <p>Adresse : 78 rue du Général Leclerc, Paris</p>
+      </div>
+
+      <div class="footer-social">
+        <h4>Suivez-nous</h4>
+        <ul>
+          <li><a href="#"><img src="images/facebook.png" alt="Facebook">Facebook</a></li>
+          <li><a href="#"><img src="images/twitter.png" alt="Twitter">Twitter</a></li>
+          <li><a href="#"><img src="images/instagram.png" alt="Instagram">Instagram</a></li>
+        </ul>
+      </div>
     </div>
 
-    <frooter> 
-        <h3>Page:Mahamane Mansourah</h3>
-    </frooter>
-</body>
+    <div class="footer-bottom">
+      <p>© 2025 Orange — Tous droits réservés.</p>
+    </div>
+    <p>Mansourah</p>
+
+</footer>
+
 </html>
