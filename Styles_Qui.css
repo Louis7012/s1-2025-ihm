@@ -1,10 +1,116 @@
+/* ===========================
+   L'ESSENTIEL
+=========================== */
+* {
+    --clair: #fff9e6;
+    --orange: #FF9249;
+    --bleu: #102436;
+    --jaune: #F7DC83;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Rajdhani, Pridi, Overpass;
+    line-height: 2;
+    overflow-x: hidden;
+    background-color: var(--clair);
+}
+
+h2,h3 {
+    font-family: Overpass,;
+}
+
+/* ===========================
+   BARRE DE NAV
+=========================== */
 header {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  background: #102436;
+    background-color: var(--orange);
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--clair);
+    font-family: Rajdhani, sans-serif;
+    font-size: 40px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo_un {
+    display: flex;
+    width: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: var(--bleu);
+    color: var(--clair);
+    border-bottom: 2px solid var(--bleu);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar.scrolled {
+    background-color: var(--clair);
+    color: var(--bleu);
+    transition: color 0.7s;
+}
+
+/* ===========================
+   LIENS DECO
+=========================== */
+
+.Liens {
+    list-style: none;
+    font-family:Rajdhani;
+    display: flex;
+    gap: 24px;
+
+}
+
+.Liens a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: var(--clair);
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+
+.navbar.scrolled .logo a {
+    color: var(--bleu);
+    transition: color 0.5s;
+}
+
+.navbar.scrolled .Liens a {
+    color: var(--bleu);
+    transition: color 0.5s;
+}
+
+.Liens a:hover {
+    text-decoration: underline;
+    color: var(--orange);
+    transition: 0.3s;
 }
 
 body{
@@ -104,14 +210,43 @@ body>div.droite{
     }
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    background: #102436;
+/* ===========================
+   FOOTER
+=========================== */
+footer {
+    border-top: 2px solid var(--bleu);
+    background-color: var(--bleu);
+    color: var(--clair);
+    padding: 16px;
+    font-size: 7.2px;
+}
 
-    h3{
-        padding: 8px 20px;
-        background: #F7DC83;
-        border-radius: 6px;
-    }
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.footer-content h4 {
+    margin-bottom: 4px;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+}
+
+.footer-links a,
+.footer-social a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 8px;
+    border-top: 1px solid #ddd;
 }
