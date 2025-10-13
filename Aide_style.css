@@ -111,15 +111,6 @@ header {
    BODY
 =========================== */
 
-
-/* --- ENSEMBLE --- */
-.Ensemble {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    margin: 50px 0;
-}
-
 body {
     font-family: Rajdhani, Pridi, Overpass;
     line-height: 2;
