@@ -8,7 +8,7 @@
     --jaune: #F7DC83;
 
     margin: 0;
-    padding: 0;
+    padding: 1;
     box-sizing: border-box;
 
 }
@@ -22,7 +22,6 @@ h2,h3 {
 =========================== */
 header {
     background-color: var(--orange);
-    padding:1;
 }
 
 .logo a {
