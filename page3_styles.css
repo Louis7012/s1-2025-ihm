@@ -72,7 +72,226 @@ header {
 .navbar.scrolled {
     background-color: var(--clair);
     color: var(--bleu);
-    transition: color 0.7s;
+    transition: color 0.3s;
+}
+
+/* ===========================
+   LIENS DECO
+=========================== */
+
+.Liens {
+    list-style: none;
+    font-family:Rajdhani;
+    display: flex;
+    gap: 24px;
+
+}
+
+.Liens a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: var(--clair);
+    font-size: 18px;
+    /* font-weight: bold; */
+}
+
+.navbar.scrolled .logo a {
+    color: var(--bleu);
+    transition: color 0.5s;
+}
+
+.navbar.scrolled .Liens a {
+    color: var(--bleu);
+    transition: color 0.5s;
+}
+
+.Liens a:hover {
+    text-decoration: underline;
+    color: var(--orange);
+    transition: 0.3s;
+}
+
+/* ============================
+   BOUTONS
+===========================  */
+
+
+/* Style prit sur internet */
+button {
+    align-items: center;
+    background-color: var(--orange);
+    border: 3px solid var(--bleu);
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: var(--clair);
+    cursor: pointer;
+    display: flex;
+    font-family: Overpass, sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+}
+
+button:after {
+  color: var(--clair);
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform 0.2s ease-out;
+  z-index: -1;
+
+
+}
+
+button:hover:after {
+    transform: translate(0, 0);
+}
+
+button:active {
+    background-color: var(--bleu);
+    outline: 0;
+    color: var(--jaune);
+}
+
+button:hover {
+    outline: 0;
+}
+
+@media (min-width: 768px) {
+    button {
+        padding: 0 40px;
+    }
+}
+
+
+/* ===========================
+   SERVICES
+=========================== */
+.services {
+    text-align: center;
+    padding: 48px 32px;
+}
+
+.service-presentations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.service-presentation {
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 16px;
+    text-align: left;
+}
+
+.service-presentation img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+.service-presentation h3 {
+    margin-bottom: 8px;
+}
+
+.service-presentation p {
+    margin-bottom: 16px;
+}
+
+.b_deux {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: var(--jaune);
+}
+
+
+/* ===========================
+   FOOTER
+=========================== */
+footer {
+    border-top: 2px solid var(--bleu);
+    background-color: var(--bleu);
+    color: var(--clair);
+    padding: 2rem;
+    font-size: 0.9rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-content h4 {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+}
+
+.footer-links a,
+.footer-social a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .service-cards,
+    .actus-content,
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card,
+    .actus-content article {
+        width: 100%;
+        max-width: 400px;
+    }
 }
 
 /* --- TITRES --- */
