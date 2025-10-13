@@ -113,74 +113,6 @@ header {
     transition: 0.3s;
 }
 
-/* ============================
-   BOUTONS
-===========================  */
-
-
-/* Style prit sur internet */
-button {
-    align-items: center;
-    background-color: var(--orange);
-    border: 3px solid var(--bleu);
-    border-radius: 8px;
-    box-sizing: border-box;
-    color: var(--clair);
-    cursor: pointer;
-    display: flex;
-    font-family: Overpass, sans-serif;
-    font-size: 16px;
-    height: 48px;
-    justify-content: center;
-    line-height: 24px;
-    max-width: 100%;
-    padding: 0 25px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-
-}
-
-button:after {
-  color: var(--clair);
-  border-radius: 8px;
-  content: "";
-  display: block;
-  height: 48px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  top: -2px;
-  transform: translate(8px, 8px);
-  transition: transform 0.2s ease-out;
-  z-index: -1;
-
-
-}
-
-button:hover:after {
-    transform: translate(0, 0);
-}
-
-button:active {
-    background-color: var(--bleu);
-    outline: 0;
-    color: var(--jaune);
-}
-
-button:hover {
-    outline: 0;
-}
-
-@media (min-width: 768px) {
-    button {
-        padding: 0 40px;
-    }
-}
-
 
 /* ===========================
    BODY
@@ -257,7 +189,6 @@ ul {
 }
 
 
-
 /* ===========================
    FOOTER
 =========================== */
@@ -265,20 +196,20 @@ footer {
     border-top: 2px solid var(--bleu);
     background-color: var(--bleu);
     color: var(--clair);
-    padding: 2rem;
-    font-size: 0.9rem;
+    padding: 16px;
+    font-size: 12px;
 }
 
 .footer-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 2rem;
-    margin-bottom: 1rem;
+    gap: 16px;
+    margin-bottom: 8px;
 }
 
 .footer-content h4 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 4px;
 }
 
 .footer-links ul,
@@ -290,14 +221,15 @@ footer {
 .footer-social a {
     text-decoration: none;
     display: block;
-    margin-bottom: 0.25rem;
+    margin-bottom: 2px;
 }
 
 .footer-bottom {
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 8px;
     border-top: 1px solid #ddd;
 }
+
 
 /* ===========================
    RESPONSIVE
