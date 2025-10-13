@@ -72,7 +72,7 @@ header {
 .navbar.scrolled {
     background-color: var(--clair);
     color: var(--bleu);
-    transition: color 0.7s;
+    transition: color 0.3s;
 }
 
 /* ===========================
@@ -112,71 +112,92 @@ header {
     color: var(--orange);
     transition: 0.3s;
 }
-/* ============================* */
 
-h1{
-    color: rgb(0, 0, 0);
-    font-family: Rajdhani;
-    background-color: rgb(255, 133, 56);
-    border-radius: 20px;
-    padding: 20px;
+
+/* ===========================
+   BODY
+=========================== */
+
+
+/* --- ENSEMBLE --- */
+.Ensemble {
     display: flex;
-    font-size: 70px;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0;
 }
 
-
-*{
-    font-family: Overpass;
-}
-
-html, body{
-    
-    font-family: Overpass;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    flex-wrap: wrap;
-    padding: 5px 20px 5px;
-    border-radius: 40px;
-    
-
-}
-
-header{
-    background-color: rgb(255, 209, 124);
-    flex-wrap: wrap;
-    color: black;
-    }
-
-body{
-    background-color: #fa7e25;
-    padding: 5px 30px 5px;  
-}
-    
-.table {
-    padding: 30px;
+/* --- BLOCS (Appareil, Forfait, TV) --- */
+.Appareil, .Forfait, .TV {
     display: flex;
+    gap: 40px;
+    width: 90%;
+    max-width: 1100px;
+}
+
+/* --- ALTERNANCE GAUCHE / DROITE --- */
+.Appareil:nth-of-type(odd),
+.Forfait:nth-of-type(odd),
+.TV:nth-of-type(odd) {
+    margin-left: 80px;   
     justify-content: flex-start;
-    flex-direction: row;
-    gap: 100px;
-    width: 50px;
-    align-items: center;
 }
 
-.logo{
-   width: 50px;  
+.Appareil:nth-of-type(even),
+.Forfait:nth-of-type(even),
+.TV:nth-of-type(even) {
+    margin-left: auto;   
+    margin-right: 80px;
+    justify-content: flex-end;
 }
 
-.image{
-    margin: 100px;
+/* --- STYLE DES CARTES --- */
+.Appareil_1, .Appareil_2, .Appareil_3,
+.Forfait_1, .Forfait_2, .Forfait_3,
+.TV_1, .TV_2, .TV_3 {
+    background-color: #f8de7e;
+    border-radius: 15px;
+    width: 320px;
+    min-height: 250px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.Appareil_1:hover, .Appareil_2:hover, .Appareil_3:hover,
+.Forfait_1:hover, .Forfait_2:hover, .Forfait_3:hover,
+.TV_1:hover, .TV_2:hover, .TV_3:hover{
+    background-color: #fce593;
+}
+
+/* --- IMAGES --- */
+.Appareil_1 img, .Appareil_2 img, .Appareil_3 img,
+.Forfait_1 img, .Forfait_2 img, .Forfait_3 img,
+.TV_1 img, .TV_2 img, .TV_3 img {
+    width: 80%;
+    height: auto;
+}
+
+/* --- TEXTE --- */
+p, li {
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 
+/* ===========================
+   FOOTER
+=========================== */
 footer {
     border-top: 2px solid var(--bleu);
     background-color: var(--bleu);
     color: var(--clair);
     padding: 16px;
-    font-size: 19px;
+    font-size: 12px;
 }
 
 .footer-content {
@@ -207,4 +228,33 @@ footer {
     text-align: center;
     padding-top: 8px;
     border-top: 1px solid #ddd;
+}
+
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media (max-width: 900px) {
+    .Appareil, .Forfait, .TV {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .Appareil_1, .Appareil_2, .Appareil_3,
+    .Forfait_1, .Forfait_2, .Forfait_3,
+    .TV_1, .TV_2, .TV_3 {
+        width: 85%;
+    }
+
+    .Appareil:nth-of-type(odd),
+    .Forfait:nth-of-type(odd),
+    .TV:nth-of-type(odd),
+    .Appareil:nth-of-type(even),
+    .Forfait:nth-of-type(even),
+    .TV:nth-of-type(even) {
+        margin: 0 auto;
+        justify-content: center;
+    }
 }
