@@ -1,50 +1,78 @@
-/* --- STYLE GÉNÉRAL --- */
-body {
+/* ===========================
+   L'ESSENTIEL
+=========================== */
+* {
+    --clair: #fff9e6;
+    --orange: #FF9249;
+    --bleu: #102436;
+    --jaune: #F7DC83;
+
     margin: 0;
     padding: 0;
-    background-color: #fff9e6;
-    padding: 5px 30px 5px;
-    color: #000;
+    box-sizing: border-box;
+
 }
 
+body {
+    font-family: Rajdhani, Pridi, Overpass;
+    line-height: 2;
+    overflow-x: hidden;
+    background-color: var(--clair);
+}
 
-/* --- EN-TÊTE --- */
+h2,h3 {
+    font-family: Overpass,;
+}
+
+/* ===========================
+   BARRE DE NAV
+=========================== */
 header {
-    background-color: #f8de7e; /* jaune pâle */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 30px;
+    background-color: var(--orange);
 }
 
-header .table {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-header .logo {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: #ff9248;
-    object-fit: cover;
-    padding: 5px;
-}
-
-/* --- LIENS DU MENU --- */
-header a {
+.logo a {
     text-decoration: none;
-    background-color: #ff9248;
-    color: black;
-    padding: 8px 15px;
-    border-radius: 10px;
-    font-weight: 600;
-    transition: 0.3s;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--clair);
+    font-family: Rajdhani, sans-serif;
+    font-size: 40px;
 }
 
-header a:hover {
-    background-color: #ffb56c;
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo_un {
+    display: flex;
+    width: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: var(--bleu);
+    color: var(--clair);
+    border-bottom: 2px solid var(--bleu);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar.scrolled {
+    background-color: var(--clair);
+    color: var(--bleu);
+    transition: color 0.7s;
 }
 
 /* --- TITRES --- */
