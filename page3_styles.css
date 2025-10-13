@@ -182,52 +182,89 @@ button:hover {
 }
 
 
-/* ===========================
-   SERVICES
-=========================== */
-.services {
+/* --- TITRES --- */
+h1, h2 {
+    color: #102436;
     text-align: center;
-    padding: 48px 32px;
 }
 
-.service-presentations {
+h1 {
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+
+/* ===========================
+   BODY
+=========================== */
+
+
+/* --- ENSEMBLE --- */
+.Ensemble {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 32px;
-    margin-top: 32px;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0;
 }
 
-.service-presentation {
-    max-width: 300px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    padding: 16px;
-    text-align: left;
+/* --- BLOCS (Appareil, Forfait, TV) --- */
+.Appareil, .Forfait, .TV {
+    display: flex;
+    gap: 40px;
+    width: 90%;
+    max-width: 1100px;
 }
 
-.service-presentation img {
-    width: 100%;
+/* --- ALTERNANCE GAUCHE / DROITE --- */
+.Appareil:nth-of-type(odd),
+.Forfait:nth-of-type(odd),
+.TV:nth-of-type(odd) {
+    margin-left: 80px;   /* aligné à gauche */
+    justify-content: flex-start;
+}
+
+.Appareil:nth-of-type(even),
+.Forfait:nth-of-type(even),
+.TV:nth-of-type(even) {
+    margin-left: auto;   /* aligné à droite */
+    margin-right: 80px;
+    justify-content: flex-end;
+}
+
+/* --- STYLE DES CARTES --- */
+.Appareil_1, .Appareil_2, .Appareil_3,
+.Forfait_1, .Forfait_2, .Forfait_3,
+.TV_1, .TV_2, .TV_3 {
+    background-color: #f8de7e;
+    border-radius: 15px;
+    width: 320px;
+    min-height: 250px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* --- IMAGES --- */
+.Appareil_1 img, .Appareil_2 img, .Appareil_3 img,
+.Forfait_1 img, .Forfait_2 img, .Forfait_3 img,
+.TV_1 img, .TV_2 img, .TV_3 img {
+    width: 80%;
     height: auto;
-    border-radius: 6px;
-    margin-bottom: 16px;
 }
 
-.service-presentation h3 {
-    margin-bottom: 8px;
+/* --- TEXTE --- */
+p, li {
+    font-weight: 500;
 }
 
-.service-presentation p {
-    margin-bottom: 16px;
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-.b_deux {
-    text-decoration: none;
-    padding: 8px 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: var(--jaune);
-}
 
 
 /* ===========================
@@ -294,114 +331,4 @@ footer {
     }
 }
 
-/* --- TITRES --- */
-h1, h2 {
-    color: #102436;
-    text-align: center;
-}
 
-h1 {
-    margin-top: 30px;
-}
-
-h2 {
-    margin-top: 40px;
-}
-
-/* --- ENSEMBLE --- */
-.Ensemble {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    margin: 50px 0;
-}
-
-/* --- BLOCS (Appareil, Forfait, TV) --- */
-.Appareil, .Forfait, .TV {
-    display: flex;
-    gap: 40px;
-    width: 90%;
-    max-width: 1100px;
-}
-
-/* --- ALTERNANCE GAUCHE / DROITE --- */
-.Appareil:nth-of-type(odd),
-.Forfait:nth-of-type(odd),
-.TV:nth-of-type(odd) {
-    margin-left: 80px;   /* aligné à gauche */
-    justify-content: flex-start;
-}
-
-.Appareil:nth-of-type(even),
-.Forfait:nth-of-type(even),
-.TV:nth-of-type(even) {
-    margin-left: auto;   /* aligné à droite */
-    margin-right: 80px;
-    justify-content: flex-end;
-}
-
-/* --- STYLE DES CARTES --- */
-.Appareil_1, .Appareil_2, .Appareil_3,
-.Forfait_1, .Forfait_2, .Forfait_3,
-.TV_1, .TV_2, .TV_3 {
-    background-color: #f8de7e;
-    border-radius: 15px;
-    width: 320px;
-    min-height: 250px;
-    text-align: center;
-    padding: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-/* --- IMAGES --- */
-.Appareil_1 img, .Appareil_2 img, .Appareil_3 img,
-.Forfait_1 img, .Forfait_2 img, .Forfait_3 img,
-.TV_1 img, .TV_2 img, .TV_3 img {
-    width: 80%;
-    height: auto;
-}
-
-/* --- TEXTE --- */
-p, li {
-    font-weight: 500;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-/* --- FOOTER --- */
-frooter {
-    background-color: #f8de7e;
-    text-align: center;
-    padding: 15px 0;
-    font-weight: 600;
-    color: #000;
-    margin-top: 50px;
-}
-
-/* --- RESPONSIVE --- */
-@media (max-width: 900px) {
-    .Appareil, .Forfait, .TV {
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-    }
-
-    .Appareil_1, .Appareil_2, .Appareil_3,
-    .Forfait_1, .Forfait_2, .Forfait_3,
-    .TV_1, .TV_2, .TV_3 {
-        width: 85%;
-    }
-
-    .Appareil:nth-of-type(odd),
-    .Forfait:nth-of-type(odd),
-    .TV:nth-of-type(odd),
-    .Appareil:nth-of-type(even),
-    .Forfait:nth-of-type(even),
-    .TV:nth-of-type(even) {
-        margin: 0 auto;
-        justify-content: center;
-    }
-}
