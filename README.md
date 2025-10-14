@@ -31,6 +31,9 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 ### Page d'accueil
 (image)
 
+### Page A Propos
+<img width="3308" height="865" alt="Capture d'écran 2025-10-13 205634" src="https://github.com/user-attachments/assets/23dd0097-1d6f-4f79-a362-dd504a552185" />
+
 ### Présentation générale
 (image)
 
@@ -66,5 +69,4 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 - LEVEQUE Guilian
   - Page Qui sommmes nous ?
  
-<img width="3308" height="865" alt="Capture d'écran 2025-10-13 205634" src="https://github.com/user-attachments/assets/23dd0097-1d6f-4f79-a362-dd504a552185" />
 
