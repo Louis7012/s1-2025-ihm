@@ -36,7 +36,8 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Flouis7012.github.io%2Fs1-2025-ihm%2Fpage3.html)
 <img width="939" height="528" alt="image" src="https://github.com/user-attachments/assets/40881eb4-ab6f-4ed6-ada5-e4e97a4d66e2" />
 
-
+[Détail ICI](https://www.ecoindex.fr/resultat/?id=6bdbe768-681b-4aba-8c59-696a8697c931)
+<img width="1009" height="646" alt="image" src="https://github.com/user-attachments/assets/e56c7ccd-171b-4546-ba5e-f83b699a8076" />
 
 
 
