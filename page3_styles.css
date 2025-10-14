@@ -183,6 +183,11 @@ p, li {
     font-weight: 500;
 }
 
+h1, h2 {
+    color:#102436;
+    text-align: center;
+}
+
 ul {
     list-style: none;
     padding: 0;
