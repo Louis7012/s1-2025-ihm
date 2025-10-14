@@ -31,16 +31,15 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 ### Page d'accueil
 (image)
 
-<img width="3308" height="865" alt="Capture d'écran 2025-10-13 205634" src="https://github.com/user-attachments/assets/23dd0097-1d6f-4f79-a362-dd504a552185" />
-
 
 ### Page Nos Services
 [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Flouis7012.github.io%2Fs1-2025-ihm%2Fpage3.html)
+<img width="939" height="528" alt="image" src="https://github.com/user-attachments/assets/40881eb4-ab6f-4ed6-ada5-e4e97a4d66e2" />
 
 
-<img width="709" height="536" alt="image" src="https://github.com/user-attachments/assets/1bef400c-d27c-42da-8e88-bfb3b01aec22" />
 
-<img width="1290" height="777" alt="image" src="https://github.com/user-attachments/assets/e866dde0-d1be-46d8-97d3-96f6f6710082" />
+
+
 
 ### Page Services Client
 [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Flouis7012.github.io%2Fs1-2025-ihm%2FAide.html)
