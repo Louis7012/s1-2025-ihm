@@ -44,8 +44,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 ### Page Services Client
 [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Flouis7012.github.io%2Fs1-2025-ihm%2FAide.html)
-<img width="736" height="552" alt="image" src="https://github.com/user-attachments/assets/d2d91c20-bc2a-4ef4-be9a-4f3b4ab6038c" />
-
+<img width="971" height="559" alt="image" src="https://github.com/user-attachments/assets/6e930689-13ee-4e8b-a839-b6a4eb95544d" />
 
 [Détail ICI](https://www.websitecarbon.com/website/louis7012-github-io-s1-2025-ihm-aide-html/)
 <img width="1328" height="712" alt="image" src="https://github.com/user-attachments/assets/5c3882fd-00a2-470f-ab86-33a6925fe06d" />
