@@ -32,7 +32,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 (image)
 
 <img width="3308" height="865" alt="Capture d'écran 2025-10-13 205634" src="https://github.com/user-attachments/assets/23dd0097-1d6f-4f79-a362-dd504a552185" />
-<img width="1328" height="712" alt="image" src="https://github.com/user-attachments/assets/5c3882fd-00a2-470f-ab86-33a6925fe06d" />
+
 
 ### Page Nos Services
 [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Flouis7012.github.io%2Fs1-2025-ihm%2Fpage3.html)
@@ -42,7 +42,12 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 <img width="1290" height="777" alt="image" src="https://github.com/user-attachments/assets/e866dde0-d1be-46d8-97d3-96f6f6710082" />
 
 ### Page Services Client
-<img width="3308" height="865" alt="Capture d'écran 2025-10-13 205634" src="https://github.com/user-attachments/assets/23dd0097-1d6f-4f79-a362-dd504a552185" />
+[Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Flouis7012.github.io%2Fs1-2025-ihm%2FAide.html)
+<img width="736" height="552" alt="image" src="https://github.com/user-attachments/assets/d2d91c20-bc2a-4ef4-be9a-4f3b4ab6038c" />
+
+
+[Détail ICI](https://www.websitecarbon.com/website/louis7012-github-io-s1-2025-ihm-aide-html/)
+<img width="1328" height="712" alt="image" src="https://github.com/user-attachments/assets/5c3882fd-00a2-470f-ab86-33a6925fe06d" />
 
 ### Présentation générale
 (image)
