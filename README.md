@@ -37,6 +37,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 ### Page Nos Services
 [Détail ICI](https://validator.w3.org/nu/#file)
 <img width="712" height="526" alt="Capture d’écran du 2025-10-14 16-47-51" src="https://github.com/user-attachments/assets/98f98249-51f3-46a8-a8b3-c2480e97d982" />
+<img width="1241" height="725" alt="image" src="https://github.com/user-attachments/assets/cb3ebd1d-746e-402d-b6d2-b12f58667091" />
 
 ### Présentation générale
 (image)
