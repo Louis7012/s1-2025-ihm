@@ -116,7 +116,7 @@ body {
     line-height: 2;
     overflow-x: hidden;
     background-color: var(--clair);
-    padding-top:50px;
+    margin-top: 50px;
 }
 
 .formulaire {
