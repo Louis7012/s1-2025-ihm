@@ -39,7 +39,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 <img width="709" height="536" alt="image" src="https://github.com/user-attachments/assets/1bef400c-d27c-42da-8e88-bfb3b01aec22" />
 
-<img width="1241" height="725" alt="image" src="https://github.com/user-attachments/assets/cb3ebd1d-746e-402d-b6d2-b12f58667091" />
+<img width="1290" height="777" alt="image" src="https://github.com/user-attachments/assets/e866dde0-d1be-46d8-97d3-96f6f6710082" />
 
 ### Présentation générale
 (image)
