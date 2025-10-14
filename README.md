@@ -35,7 +35,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 <img width="3308" height="865" alt="Capture d'écran 2025-10-13 205634" src="https://github.com/user-attachments/assets/23dd0097-1d6f-4f79-a362-dd504a552185" />
 
 ### Page Nos Services
-[Détail ICI]([https://validator.w3.org/nu/#file](https://validator.w3.org/nu/?doc=https%3A%2F%2Flouis7012.github.io%2Fs1-2025-ihm%2Fpage3.html))
+[Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Flouis7012.github.io%2Fs1-2025-ihm%2Fpage3.html)
 
 <img width="709" height="536" alt="image" src="https://github.com/user-attachments/assets/1bef400c-d27c-42da-8e88-bfb3b01aec22" />
 
