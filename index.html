@@ -11,7 +11,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Pridi:wght@200;300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+</head>
+
+<body>
+
     <header>
         <nav class="navbar">
             <div class="logo">
@@ -24,14 +27,9 @@
                 <li><a href="Aide.html">Services client</a></li>
                 <li><a href="Orange_Qui.html">A propos</a></li>
             </ul>
-
         </nav>
-  </header>
-</head>
+    </header>
 
-<!-- ------------------------- PRINCIPAL -->
-
-<body>
     <section class="Principal">
         <div class="Principal_contenu">
             <div class="texte-logo">
@@ -70,7 +68,7 @@
         </div>
       </div>
     </section>
-<!-- ------------------------- INFOS -->
+
     <section class="actus">
       <h2>Actualités & Promotions</h2>
       <div class="actus-content">
@@ -86,57 +84,52 @@
         </article>
       </div>
     </section>
-  </main>
 
-<!-- -------------------------- AIDE CHATGPT -->
-  <script>
+    <script>
     window.addEventListener('scroll', function() {
         const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
     });
     </script>
+
+    <footer>
+        <div class="footer-content">
+          <div class="footer-links">
+            <h4>Liens utiles</h4>
+            <ul>
+              <li><a href="#">Mentions légales</a></li>
+              <li><a href="#">Conditions générales</a></li>
+              <li><a href="#">Politique de confidentialité</a></li>
+              <li><a href="#">Plan du site</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h4>Contact</h4>
+            <p>Service client : 3900</p>
+            <p>Email : contact@orange.fr</p>
+            <p>Adresse : 78 rue du Général Leclerc, Paris</p>
+          </div>
+
+          <div class="footer-social">
+            <h4>Suivez-nous</h4>
+            <ul>
+              <li><a href="#"><img src="images/facebook.png" alt="Facebook">Facebook</a></li>
+              <li><a href="#"><img src="images/twitter.png" alt="Twitter">Twitter</a></li>
+              <li><a href="#"><img src="images/instagram.png" alt="Instagram">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2025 Orange — Tous droits réservés.</p>
+        </div>
+        <p>Page : Mahamane Mansourah</p>
+    </footer>
+
 </body>
-
-    <!-- ------------------------- FOOTER -->
-    
-<footer>
-    <div class="footer-content">
-      <div class="footer-links">
-        <h4>Liens utiles</h4>
-        <ul>
-          <li><a href="#">Mentions légales</a></li>
-          <li><a href="#">Conditions générales</a></li>
-          <li><a href="#">Politique de confidentialité</a></li>
-          <li><a href="#">Plan du site</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-contact">
-        <h4>Contact</h4>
-        <p>Service client : 3900</p>
-        <p>Email : contact@orange.fr</p>
-        <p>Adresse : 78 rue du Général Leclerc, Paris</p>
-      </div>
-
-      <div class="footer-social">
-        <h4>Suivez-nous</h4>
-        <ul>
-          <li><a href="#"><img src="images/facebook.png" alt="Facebook">Facebook</a></li>
-          <li><a href="#"><img src="images/twitter.png" alt="Twitter">Twitter</a></li>
-          <li><a href="#"><img src="images/instagram.png" alt="Instagram">Instagram</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <p>© 2025 Orange — Tous droits réservés.</p>
-    </div>
-    <p>Page : Mahamane Mansourah</p>
-
-</footer>
-
 </html>
