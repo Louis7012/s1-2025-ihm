@@ -184,6 +184,7 @@ section p {
     font-size: 16px;
     color: var(--bleu);
     margin-top: 10px;
+    text-align: center;
 }
 
 .maps {
@@ -191,6 +192,11 @@ section p {
     justify-content: right;
     width: 100%;
 }
+
+
+/* ===========================
+   BUTTON
+=========================== */
 button {
   position: relative;
   display: flex;
