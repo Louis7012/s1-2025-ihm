@@ -29,7 +29,8 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 ## Développement Site Web et Validation des pages
 
 ### Page d'accueil
-(image)
+[Détail ICI](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flouis7012.github.io%2Fs1-2025-ihm%2Findex.html)
+<img width="939" height="528" alt="image" src="https://github.com/user-attachments/assets/40881eb4-ab6f-4ed6-ada5-e4e97a4d66e2" />
 
 
 ### Page Nos Services
