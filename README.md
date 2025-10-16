@@ -30,7 +30,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 ### Page d'accueil
 [Détail ICI](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flouis7012.github.io%2Fs1-2025-ihm%2Findex.html)
-<img width="939" height="528" alt="image" src="https://github.com/user-attachments/assets/40881eb4-ab6f-4ed6-ada5-e4e97a4d66e2" />
+<img width="939" height="528" alt="image" src="<img width="583" height="339" alt="checker" src="https://github.com/user-attachments/assets/7da2decb-25e9-4bf6-b20e-c07ca3aa2bc7" />
 
 
 ### Page Nos Services
