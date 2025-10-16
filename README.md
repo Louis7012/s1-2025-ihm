@@ -32,6 +32,9 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 [Détail ICI](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flouis7012.github.io%2Fs1-2025-ihm%2Findex.html)
 <img width="939" height="528" alt="image" src="<img width="583" height="339" alt="checker" src="https://github.com/user-attachments/assets/7da2decb-25e9-4bf6-b20e-c07ca3aa2bc7" />
 
+[Détail ICI](https://www.ecoindex.fr/resultat/?id=b2e98f14-b585-4567-9ae6-da6e8ca12b87)
+<img width="1009" height="646" alt="image" src="<img width="629" height="389" alt="pollution" src="https://github.com/user-attachments/assets/df391c70-3d96-4aa1-affc-1cedb6220dbf" />
+" />
 
 ### Page Nos Services
 [Détail ICI](https://validator.w3.org/nu/?doc=https%3A%2F%2Flouis7012.github.io%2Fs1-2025-ihm%2Fpage3.html)
