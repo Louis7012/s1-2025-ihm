@@ -53,7 +53,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 [Détail ICI](https://www.websitecarbon.com/website/louis7012-github-io-s1-2025-ihm-aide-html/)
 <img width="1328" height="712" alt="image" src="https://github.com/user-attachments/assets/5c3882fd-00a2-470f-ab86-33a6925fe06d" />
 
-### Présentation générale
+### A propos
 (image)
 
 
@@ -89,4 +89,3 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 - LEVEQUE Guilian
   - Page Qui sommmes nous ?
  
-
